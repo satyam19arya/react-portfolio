@@ -9,7 +9,7 @@
     list-style: none;
     text-decoration: none;
 }
-
+  
 :root{
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
@@ -27,6 +27,10 @@
 
 html{
     scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
 
 body{
@@ -54,7 +58,6 @@ h1{
 
 section{
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section > h2,
@@ -66,6 +69,10 @@ section > h5{
 section > h2{
     color: var(--color-primary);
     margin-bottom: 3rem;
+}
+
+.text-light{
+    color: var(--color-light);
 }
 
 a{
@@ -106,7 +113,7 @@ img{
 }
 
 /* ------------------responsive section------------------ */
-@media screen and (max-width:1024px){
+@media screen and (max-width: 1024px){
     .container{
         width: var(--container--width-md);
     }
@@ -117,7 +124,7 @@ img{
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width: 600px){
     .container{
         width: var(--container--width-sm);
     }
