@@ -6,8 +6,6 @@ import {BiBook} from 'react-icons/bi';
 import {RiServiceLine} from 'react-icons/ri';
 import {TiMessageTyping} from 'react-icons/ti';
 
-import Headersocials from './Header_socials';
-
 const Nav = () => {
 
     const [activeNav, setActiveNav] = useState('#home')
@@ -21,10 +19,6 @@ const Nav = () => {
                 <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine/></a>
                 <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><TiMessageTyping/></a>
             </nav>
-
-            <Headersocials />
-
-            <a href="#contact" className='scroll_down'>Contact me -----</a>
         </div>
     );
 }

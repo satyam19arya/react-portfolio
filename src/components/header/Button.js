@@ -1,5 +1,6 @@
 import React from 'react'
 import CV from '../../assets/cv.pdf'
+import './Header.css';
 
 const Button = () => {
   return (
