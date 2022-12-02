@@ -1,5 +1,6 @@
-.testimonials_container{
+.container.testimonials_container{
     width: 40%;
+    padding-bottom: 4rem;
 }
 
 .testimonial{
@@ -26,16 +27,20 @@
     margin: 0.8rem auto 0;
 }
 
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--color-primary);
+}
+
 /* ------------------responsive section------------------ */
 
 @media screen and (max-width: 1024px){
-    .testimonials_container{
+    .container.testimonials_container{
         width: 60%;
     }
 }
 
 @media screen and (max-width: 600px){
-    .testimonials_container{
+    .container.testimonials_container{
         width: var(--container-width-sm);
     }
 
