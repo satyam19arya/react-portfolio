@@ -54,7 +54,7 @@ const data= [
 
 const Portfolio = () => {
     return(
-        <div>
+        <div data-aos="zoom-out-up">
             <section id='portfolio'>
                 <h5>My recent work</h5>
                 <h2>Portfolio</h2>

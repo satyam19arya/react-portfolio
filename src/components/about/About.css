@@ -7,22 +7,17 @@
 .about_me{
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
     display: grid;
     place-items: center;
     margin-top: 5rem;
 }
 
-.about_me-image{
-    border-radius: 6rem;
-    overflow: hidden;
-    transform: rotate(0deg);
-    transition: var(--transition);
+.about_me:hover{
+    transform: translateY(-2px);
 }
 
-.about_me-image:hover{
-    transform: rotate(10deg);
+.about_me-image{
+    overflow: hidden;
 }
 
 /* ------------------------------------ */

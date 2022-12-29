@@ -25,7 +25,7 @@ const Contact = () => {
 
     return(
         <div>
-            <section id='contact'>
+            <section id='contact' data-aos="flip-right">
                 <h5>Get in Touch</h5>
                 <h2>Contact me</h2>
 
